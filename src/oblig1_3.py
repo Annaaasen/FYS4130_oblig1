@@ -100,6 +100,7 @@ if __name__ == "__main__":
 
     plt.plot(n_tot, n)
     plt.show()
+    #Now we're back
 
     
 
