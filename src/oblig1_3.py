@@ -12,6 +12,7 @@ def helmholtz(n, T=1, V=1, alpha=1, gamma=10):
         n (_type_): array containing nx, ny, nz
     """
     nx,ny,nz = n
+    print(nx.shape, ny.shape, nz)
     F = T * V * (nx * np.log(alpha*nx) + ny * np.log(alpha*ny) + nz * np.log(alpha*nz)\
                   + gamma * (nx*ny + ny*nz + nz*nx))
     return F
@@ -31,12 +32,8 @@ def init_ns(n_tot):
 
 def init_ns_arr(n_tot):
     #in this case n_tot is an array
-    nx = np.random.uniform(low=0, high=n_tot/2, size=n_tot.size)
-    ny = np.random.uniform(low=0, high=n_tot/2, size=n_tot.size)
-    nz = n_tot - (nx + ny)
 
-    n = np.array([nx,ny,nz])
-    return n
+    return 0
 
 def plot_slice():
     nx = np.linspace(0, 0.9, 1000)
@@ -75,24 +72,26 @@ def constraint_2(n, n_tot):
 def opt(n_tot):
     from scipy.optimize import Bounds, LinearConstraint 
 
-    bounds = Bounds(0.001, 1)
+    bounds = ([0.001, 1], [0.001, 1], [0.001, 1])
 
     cons1 = {"type": "ineq", "fun": constraint_1}
     cons2 = {"type": "eq", "fun": constraint_2, "args": (n_tot,)}
     cons = [cons1, cons2]
 
-    n0 = init_ns_arr(n_tot)
-    
-    print(helmholtz(n0))
-    print(n0.ndim)
-    #Seems like sending in a 2d array as n0 is problematic!
+    n0 = init_ns(n_tot)
 
     res = optimize.minimize(helmholtz, n0, method="SLSQP", bounds=bounds, constraints=cons)
 
     print(res.x)
     return res.x
 
-def plot_loop():
+
+
+
+if __name__ == "__main__":
+    # n_tot = random.uniform(0,1)
+    # init_ns(n_tot)
+    # contur_plot(n_tot)
     n_tot = np.linspace(0.01, 0.9, 100)
     n = np.zeros((len(n_tot), 3))
     
@@ -101,13 +100,6 @@ def plot_loop():
 
     plt.plot(n_tot, n)
     plt.show()
-
-
-
-
-if __name__ == "__main__":
-    n_tot = np.linspace(0.01, 0.99, 10)
-    opt(n_tot) 
 
     
 
