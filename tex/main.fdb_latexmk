@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1677856673 "/Users/annapaulinehjertvikaasen/Documents/2. UiO/CS physics/2. semester/FYS4130/Oblig 1/tex/main.tex" "main.pdf" "main" 1677856674
-  "/Users/annapaulinehjertvikaasen/Documents/2. UiO/CS physics/2. semester/FYS4130/Oblig 1/tex/main.tex" 1677856673 300 a6daa8a26f1e2040b62782fd61a6a00b ""
+["pdflatex"] 1678120395 "/Users/annapaulinehjertvikaasen/Documents/2. UiO/CS physics/2. semester/FYS4130/Oblig 1/tex/main.tex" "main.pdf" "main" 1678120396
+  "/Users/annapaulinehjertvikaasen/Documents/2. UiO/CS physics/2. semester/FYS4130/Oblig 1/tex/main.tex" 1678119399 443 8bae44cb19dcbfaf2879676a5dd48fda ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -60,6 +60,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty" 1647548653 71241 d2cd3a1c5acef9cb31f945b93c0bb6e3 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty" 1645391520 11546 6c5257d230d8c5626812b45bc2f31212 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/cleveref/cleveref.sty" 1525128982 329481 7fc6b003158402a4c694bc0a1b729308 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -96,11 +97,14 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1662556400 2826433 acce3bf39d0e3a17b477c70841265763 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "main.aux" 1677856674 706 2b542214b473ba6eb93f8741ca809219 "pdflatex"
+  "main.aux" 1678120396 706 2b542214b473ba6eb93f8741ca809219 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1677856673 300 a6daa8a26f1e2040b62782fd61a6a00b ""
-  "overhead.sty" 1677856216 2153 68d58048ff3ddca0fc5547092ccb51b0 ""
+  "main.tex" 1678119399 443 8bae44cb19dcbfaf2879676a5dd48fda ""
+  "overhead.sty" 1678119928 2175 0618ce198f9154676584a1fc6a92fb6b ""
   "sections/1.tex" 1677856637 50 50793681091ab8d72fcc0b2dd825a9bd ""
+  "sections/2.tex" 0 -1 0 ""
+  "sections/3.tex" 1678120395 1153 051c83ff3badafbb574bca3a84be1096 ""
+  "sections/4.tex" 0 -1 0 ""
   (generated)
   "main.aux"
   "main.log"
