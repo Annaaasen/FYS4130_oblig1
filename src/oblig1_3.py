@@ -88,29 +88,40 @@ def plot_F(n_tot, F, save=False):
         plt.savefig("../tex/figs/n_vs_F.pdf")
     plt.show()
 
+def get_indices_of_k_smallest(arr, k):
+    """NB! Taken from 
+    https://stackoverflow.com/questions/34226400/find-the-index-of-the-k-smallest-values-of-a-numpy-array
+    """
+    idx = np.argpartition(arr.ravel(), k)
+    return tuple(np.array(np.unravel_index(idx, arr.shape))[:, range(min(k, 0), max(k, 0))])
+
 def plot_contour(n_tot, save=False):
-    nx = ny = np.linspace(0.001, n_tot/2 - 0.001, 100)
+    nx = ny = np.linspace(0.001, n_tot, 100)
     NX, NY = np.meshgrid(nx, ny)
     NZ = n_tot - (NX + NY)
     assert (np.abs(n_tot - (NX+NY+NZ)) < 1e-6).all
 
     F = helmholtz(np.array([NX,NY,NZ]))
 
-    min_idx = np.unravel_index(F.argmin(), F.shape)
+    if n_tot <= 0.2772:
+    #This could be improved 
+        min_idx = np.unravel_index(np.nanargmin(F), F.shape)
+    else:
+        min_idx = get_indices_of_k_smallest(F, 3)
 
     plt.contourf(nx, ny, F)
-    plt.plot(NX[min_idx], NY[min_idx], '*r', label=f"({NX[min_idx]:.3f}, {NY[min_idx]:.3f}, {NZ[min_idx]:.3f})")
-    plt.colorbar()
+    plt.plot(NX[min_idx], NY[min_idx], '*r') #NB! Find out about the label 
     plt.title(f"n = {n_tot:.3f}")
-    plt.legend()
+    plt.colorbar()
+    # plt.legend()
     if save:
-        plt.savefig(f"../tex/figs/contour_{n_tot}.pdf")
+        plt.savefig(f"../tex/figs/contour_nan_{n_tot}.pdf")
     plt.show()
 
 
 
 if __name__ == "__main__":
-    n_tot = 0.27
+    n_tot = 0.2
     plot_contour(n_tot)
 
     # n_tot = np.linspace(0.01, 0.9, 100)
