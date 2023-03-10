@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.7)  6 MAR 2023 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.7)  10 MAR 2023 13:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -262,9 +262,7 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen160
 \Gin@req@width=\dimen161
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
@@ -282,7 +280,8 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count288
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 \c@subfigure=\count289
 \c@subtable=\count290
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -341,24 +340,24 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 )) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -368,15 +367,15 @@ LaTeX Font Info:    ... okay on input line 10.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=443.57848pt
-* \textheight=624.25346pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-23.91173pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -413,7 +412,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 10.
+Package hyperref Info: Link coloring ON on input line 11.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -423,41 +422,123 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count303
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./sections/1.tex) (./sections/2.tex) (./sections/3.tex) (./sections/4.tex) [1
+) [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sections/3.tex
+<./figs/n_vs_xyz.pdf, id=15, 462.52798pt x 346.89601pt>
+File: ./figs/n_vs_xyz.pdf Graphic file (type pdf)
+<use ./figs/n_vs_xyz.pdf>
+Package pdftex.def Info: ./figs/n_vs_xyz.pdf  used on input line 35.
+(pdftex.def)             Requested size: 330.42041pt x 247.82762pt.
+<./figs/n_vs_F.pdf, id=17, 462.52798pt x 346.89601pt>
+File: ./figs/n_vs_F.pdf Graphic file (type pdf)
+<use ./figs/n_vs_F.pdf>
+Package pdftex.def Info: ./figs/n_vs_F.pdf  used on input line 44.
+(pdftex.def)             Requested size: 231.2979pt x 173.47403pt.
+<./figs/n_vs_F_zoomed.pdf, id=18, 462.52798pt x 346.89601pt>
+File: ./figs/n_vs_F_zoomed.pdf Graphic file (type pdf)
+<use ./figs/n_vs_F_zoomed.pdf>
+Package pdftex.def Info: ./figs/n_vs_F_zoomed.pdf  used on input line 49.
+(pdftex.def)             Requested size: 231.2979pt x 173.47403pt.
+<./figs/contour_nan_0.2.pdf, id=22, 462.52798pt x 346.89601pt>
+File: ./figs/contour_nan_0.2.pdf Graphic file (type pdf)
+<use ./figs/contour_nan_0.2.pdf>
+Package pdftex.def Info: ./figs/contour_nan_0.2.pdf  used on input line 61.
+(pdftex.def)             Requested size: 231.2979pt x 173.47403pt.
+<./figs/contour_nan_0.2773.pdf, id=23, 462.52798pt x 346.89601pt>
+File: ./figs/contour_nan_0.2773.pdf Graphic file (type pdf)
+<use ./figs/contour_nan_0.2773.pdf>
+Package pdftex.def Info: ./figs/contour_nan_0.2773.pdf  used on input line 65.
+(pdftex.def)             Requested size: 231.2979pt x 173.47403pt.
+<./figs/contour_nan_0.3.pdf, id=24, 462.52798pt x 346.89601pt>
+File: ./figs/contour_nan_0.3.pdf Graphic file (type pdf)
+<use ./figs/contour_nan_0.3.pdf>
+Package pdftex.def Info: ./figs/contour_nan_0.3.pdf  used on input line 69.
+(pdftex.def)             Requested size: 231.2979pt x 173.47403pt.
+<./figs/contour_nan_0.4.pdf, id=25, 462.52798pt x 346.89601pt>
+File: ./figs/contour_nan_0.4.pdf Graphic file (type pdf)
+<use ./figs/contour_nan_0.4.pdf>
+Package pdftex.def Info: ./figs/contour_nan_0.4.pdf  used on input line 73.
+(pdftex.def)             Requested size: 231.2979pt x 173.47403pt.
+
+Overfull \hbox (0.9858pt too wide) in paragraph at lines 57--80
+[]\OT1/cmr/m/n/10 Lastly, we will look at some con-tour plots of $\OML/cmm/m/it/10 F$ \OT1/cmr/m/n/10 for con-stant $\OML/cmm/m/it/10 n$ \OT1/cmr/m/n/10 with dif-fer-ent rod-orientations-concentrations,
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 
+      [2]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 
+      [3 <./figs/n_vs_xyz.pdf> <./figs/n_vs_F.pdf> <./figs/n_vs_F_zoomed.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 
+      [4 <./figs/contour_nan_0.2.pdf> <./figs/contour_nan_0.2773.pdf> <./figs/contour_nan_0.3.pdf> <./figs/contour_nan_0.4.pdf>]
+<./figs/gibbs.pdf, id=188, 462.52798pt x 346.89601pt>
+File: ./figs/gibbs.pdf Graphic file (type pdf)
+<use ./figs/gibbs.pdf>
+Package pdftex.def Info: ./figs/gibbs.pdf  used on input line 100.
+(pdftex.def)             Requested size: 330.42041pt x 247.82762pt.
+<./figs/n_vs_P.pdf, id=190, 462.52798pt x 346.89601pt>
+File: ./figs/n_vs_P.pdf Graphic file (type pdf)
+<use ./figs/n_vs_P.pdf>
+Package pdftex.def Info: ./figs/n_vs_P.pdf  used on input line 110.
+(pdftex.def)             Requested size: 231.2979pt x 173.47403pt.
+<./figs/n_vs_P_zoom.pdf, id=191, 462.52798pt x 346.89601pt>
+File: ./figs/n_vs_P_zoom.pdf Graphic file (type pdf)
+<use ./figs/n_vs_P_zoom.pdf>
+Package pdftex.def Info: ./figs/n_vs_P_zoom.pdf  used on input line 115.
+(pdftex.def)             Requested size: 231.2979pt x 173.47403pt.
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \end{document}
+                    [5]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \end{document}
+                    [6 <./figs/gibbs.pdf> <./figs/n_vs_P.pdf> <./figs/n_vs_P_zoom.pdf>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14947 strings out of 478268
- 254679 string characters out of 5846348
- 578350 words of memory out of 5000000
- 32955 multiletter control sequences out of 15000+600000
- 475115 words of font info for 50 fonts, out of 8000000 for 9000
+ 15069 strings out of 478268
+ 257499 string characters out of 5846348
+ 590356 words of memory out of 5000000
+ 33066 multiletter control sequences out of 15000+600000
+ 478976 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,6n,91p,439b,324s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (1 page, 56037 bytes).
+ 83i,10n,91p,1051b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (6 pages, 739380 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
